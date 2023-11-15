@@ -1,0 +1,156 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Accès Chorus Pro
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAADNT5ThcFK0t156te6Weteug2yC54Y20wCKqUBl9CqGOX8XYSfhAl0yL28oktFPxw4AkueGAkq+NsvBGa0crfducag9pf1Mb1NYQ0Y0eUl4iHuFUo5KsLL+WAQMoZiXkTmcEVMfVn36dmEQjrkxrqpu4k57/9KAahN1aoFiH3b8PVXEdjdP05MAzJXzny6BJ6Amjc8j5LME7tOvRYbGrB7vYbDywqHKTazra2evlyWCBxHtbT7qOawp+0fb11N6cxuDNXlcfNZR7608tEEZOrChIAmLs/TrnMdmKrTdi3nWhqKHwWkEYvbLvZXlO0C7YuNlTVqHrsg6YcVPz7M5uL2dE3JERNomkT0rgnULPPP8K/gZWHZpCQb+JxonF0REIHYWHi2a15HQgsv47sDuY0ipvNnNnhCifMqVSgDBlTwnusTgyaJA3bx3wiRyn1u5tOLIqlY1/zUWXGkN9Ecjzvqi87Mm7SuIu3sc55MiJiwbzQwIf/iRM6fkiMzk5xewLR1JckdCr9zR8lsoyTi4fkbgo3dTkS45/b4FJ2ktQtyB2RADaGT3ZTepL5amUMH3fS6MxawlPiCT8i7CeIY4+9aWwLEEEMGBihuuqNTqzOsGph98hTquhlIOE2uRJMVWu0PQXgobom3zQKjaoOXUtNxWR7L4eDJWFvJ0tUjdMvluy3BDD/pGKZz1SNJOTYROffL9f6LlTAHjndGVatPVv9tRXjqiGWa4QXSbkwa2uClZa+yBFYPQYK7CWhF+VofL1cEGsr03F1LK462r3JgJ8q6V/xNqoQfXQ0Cs/D72NsLT0WruWtL4nP6SS0Sww1sGJn2EZd9ohXUgCzhrE8kNaxDmon2slOl50a92gy1ptW6tdpTzULrcbssxKVq4yQIGXay4sSR+GJG4jFEK58wBw2hyCOX3r5J6mKvwanAbO1GmixXbaVXarSvGqkexDI7QBpRE04pq4hxUuUUPBpHVtYKUe4fSulU5MiN3uUpSvtJ1aR6eLlc0GJ0qNE2INUVE1yh5LpH3XXOQE8TXm7L1+N+IwxsUBsi2EAmGEuAiqhHzFiHVZ65o1xIVdpUq+CCMBWeyfEN3gFbJrD2sBWMAv/ChTM3QbzN11ok2p3bML75M3g7notKTWvc49f5O6h5w1XQPqoi6cuEFzeD5CM+HxTmZJquYapEawahyGHKIJZgOeITeJ44tmreXgXPQ1LJviFGJWYJ8rL0kpY+uM0z/TRvhZ5NuqMMI+CuoP2r/QZCxXUk4S2gJ859ixUa+nptyH/rTCzj7ZrcK5BJmSBKR3AQD4GhmijGAkAo5+kqTybbx4QQ6+ebsg7cQcu7joU8eynTPqJBwTXcxfuNLSIb1sXiAgasCexqGEJmbkkST83btCVTVXJMdZtAjXo+OvUfaNobfD9L/5gc8hWjRhkVY60Smr18Wvcv6tqOKG+3cHHvwCxtIU6H46vEj8SOrtXy5ExjtKiiIK7Q2bqRjbvLNnZnRxTXQtX+OFrMBDhXD4a+ghZpe229SWhgPjqB/RW77/ChD7+n5pyBAY2vwfkX+k/AUdJa780iMGmgbpkF2Haruhi+nB9qs2Z/UdiXwkSiuN5TDrmaDYDsu11bwtuqR8XhcBI8eya9WCNOx89S0iCfgfIEvYHZnl5R6xhqvwWuBQjae8k/2H1YjBvh56C6IDT5+BGbhO8ntluujoxMbQQpFP4I7F22YN44Ul54pWySkz8s72LiUlOxcWv3LmkUI2mfyTopsamUXHBp/tcaoNQWXLRD/4YwJJseizpEWVGyFMX/VuAXLf8Ljaz9MH0GONT5OAS1HPREElmYMSFgS7Y2V+/JxM8++4CvrR7k4h0qLKM5AkRs9jEBUt4SGSPonPTzOWPA3jLdtzDYJ6ukuf8IlcaBdfDwI6vqAN1tetlvWeoz4+QoNGauPggy2zzN8xNz9K/7r2/YLbAXFYgKpZdIjwEE=
+ configurations :
+  -
+    name : Exécutable Windows 32 bits
+    internal_properties : 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
+    configuration_id : 16916206227794188793
+    type : 1
+    generation_name : WD Accès Chorus Pro.exe
+    version :
+     major_version : 1
+     generation_version : 3
+     internal_generation_version : 3
+    icon_filename : .\batiment.ico
+    language : 1
+ elements :
+  identifier : 0x4bf699150002e510
+  elements :
+   -
+     name : COL_ChorusPro
+     identifier : 0x4bf6b9d1001bc507
+     internal_properties : CAAAAAgAAAApJRF1su/H6B6Liv5WLOF92Ur05Mu5xZWtkun96ReHUe8tOJ2PsUBVm4p0TNQM9OQsNA==
+     physical_name : .\COL_ChorusPro.wdg
+     type : 7
+   -
+     name : FEN_TEST_CHORUS
+     identifier : 0x4c0013b002bdc1fe
+     internal_properties : CAAAAAgAAABwzqj0M2hAW4zkoSKbebKt7Nm788qwl0OtJrltv0FLvTOPc05ioMC3Sfvl01ONdWtV3Q==
+     physical_name : .\FEN_TEST_CHORUS.wdw
+     type : 2
+   -
+     name : FEN_Visualisation_Engagements
+     identifier : 0x4c0e719b001e0646
+     internal_properties : CAAAAAgAAABNyaX5xrP7JFvdfpSQ0R60k7zu/s2Td691ZBvDBxmFQ/F/6R0C/r2IZMYwiAj4gHBY2A==
+     physical_name : .\FEN_Visualisation_Engagements.wdw
+     type : 2
+   -
+     name : FEN_Facturer_Engagement_PDF
+     identifier : 0x4c1229b5006123c8
+     internal_properties : CAAAAAgAAADlYc3R7oujvFPZ9kZYNA+iJ1TyGq2739OtqpUB6Sf30XulZb6sHFnUXM7IMPDgmAjwcA==
+     physical_name : .\FEN_Facturer_Engagement_PDF.wdw
+     type : 2
+   -
+     name : COL_ChorusPro_Base
+     identifier : 0x4c0013f802cedc38
+     internal_properties : CAAAAAgAAABv60dbaBUdziFpUr9IX0jmW34aQned9tyJv64oon4UFDjEklp1lXPovmBapm5iHpJ6+g==
+     physical_name : .\COL_BaseChorusPro.wdg
+     type : 7
+  other_elements :
+   -
+     physical_name : .\ConsulterCompteUtilisateur_input.json
+   -
+     physical_name : .\SoumettreFacture_M8_V0_output.json
+   -
+     physical_name : .\SoumettreFacture_M8_V0_input.json
+   -
+     physical_name : .\RecupererTauxTva_M8_V0_OutPut.json
+   -
+     physical_name : .\RecupererTauxTva_M8_V0_InPut.json
+   -
+     physical_name : .\RecupererStructureActivepourFournisseur_M8_V0_OutPut.json
+   -
+     physical_name : .\RecupererStructureActivepourFournisseur_M8_V0_InPut.json
+   -
+     physical_name : .\ConsulterCompteUtilisateur_output.json
+   -
+     physical_name : .\RechercherStructure_M8_V0_OutPut.json
+   -
+     physical_name : .\RechercherStructure_M8_V0_InPut.json
+   -
+     physical_name : .\RechercherServiceStructure_M8_V0_OutPut.json
+   -
+     physical_name : .\RechercherServiceStructure_M8_V0_InPut.json
+   -
+     physical_name : .\RechercherEngagementJuridique_M8_V0_OutPut.json
+   -
+     physical_name : .\RechercherEngagementJuridique_M8_V0_InPut.json
+   -
+     physical_name : .\RechercherDestinataire_M8_V0_OutPut.json
+   -
+     physical_name : .\RechercherDestinataire_M8_V0_InPut.json
+   -
+     physical_name : .\ListerrattachementStructureUtilisateur_output.json
+   -
+     physical_name : .\ListerrattachementStructureUtilisateur_input.json
+   -
+     physical_name : .\DeposerPDFFacture_M8_V0_output.json
+   -
+     physical_name : .\DeposerPDFFacture_M8_V0_input.json
+   -
+     physical_name : .\ConsulterServiceStructure_output.json
+   -
+     physical_name : .\ConsulterServiceStructure_input.json
+   -
+     physical_name : .\ConsulterInformationSIRET_output.json
+   -
+     physical_name : .\ConsulterInformationSIRET_input.json
+   -
+     physical_name : .\ConsulterFactureParFournisseur_M8_V0_output.json
+   -
+     physical_name : .\ConsulterFactureParFournisseur_M8_V0_input.json
+   -
+     physical_name : .\ConsulterDetailEngagementJuridique_output.json
+   -
+     physical_name : .\ConsulterDetailEngagementJuridique_input.json
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAACEQsckZrH7iQtqRlBvivqeeO/qJpo8cQ5IkHnB+ea+7TMp08IUhLcrKj4B8XFUGB/gqN+c0b9V5IfWA7T2hsQRAA==
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      gsFichierFacture est une chaîne = fRepExe()+"\factures-test\facture_2019041216032326.pdf"
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Exécutable Windows 32 bits
+     identifier : 0x4bf699150003e520
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

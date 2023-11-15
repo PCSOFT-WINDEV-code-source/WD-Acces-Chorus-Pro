@@ -1,0 +1,740 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_TEST_CHORUS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_TEST_CHORUS
+ identifier : 0x2c0013b0207dc1ee
+ internal_properties : CAAAAAgAAAD17JYICnCm1YnsbJbTpN8CzqiddY/80LP/iYUAxV+5ReLThUjaHdYkQg0AGgOEe9Rcj1xetaYkStfoK3TGIZ9Hp9Cu7kZeFghoQm+CXa0wrtv6s0LRfaE0Yw1IHMNMRrNb1vXhCKg44U1f5NvxpI9ANQuhKLnVgR1BN5U9rxhusaAGRJnbcBcb2eTeDEqpTz/9JLqRIcF7rnF105kCxgidut/JSbPKIDDLM4z+3yFVEqtn+j7ghW6pckC36TCRwb9Cplp5VKe9SQWETRw3Gg2082GOF+INn5cooXz0uand9G5skWynVpmmCI1H/+CMGdlvQKXKDLqEvWu+KPqbi4+Crhxunj535916x7wqaVmaw/GJLcSJwOK1c+Ne3vDHTENILtwDyOBEFUBXprQ9fopHDKhynqaaerjrlQ7R1BjyGei1w1FB1mdvg6Y6KxME2TGIpdpRE8TWv8lAxcZljlveMG+t0bdYqsI1MQ/WHHG3YrjzeFI0MIRofvNBri9LFzWR9mYg0de+dNrHO+iz0x8htS6/wXUqO0IomjlDx7a22rwoG3u2VTMOw+uZcZjI2lCfG8yARm4K6TCLjKY735q5DRCFbsic8E1ir0JP6tCVxq4aIAAn2WhNDiRvPsL1JTkS+2iYuVIWldCtgnBZsmwYOXekrj/NL/ZNMo/o+k7ei32PfHx6e/LRTvs+m3507cq48tl5tuxrhI4+bRRLKUHRJxViI2zuCRXAJWipNurNGggPJyNFnhVyAvCvPaBgVyXp34G7gPkHB/zQrTtZ1yFM2H+8jDAMbzqHccqyt7M2OB3zIuEQUhuAy9g6JujY2Hj8am7xexRHF8cEXT1+KsihecPlGMSXumn36QjRDMeKNXghD2sbFHhN7AU09BtliUWVFbS4GdokdKEv7lEx+aEmYFsmIoxUJswlafzT3TJWM3S2ktau/nRGFDZZ9RRUuznthpuryA/IEcwkHr4a5FjXf+QWXsqVxepJkr+DbWO7wlXZKsb5GVJTlL4Dxn3tZY//lUQ+YU3AQ7G+E/0Cuc06Ny7KMFm4saow/5Y1o7Yqs/fLt2Z/UAiQaTASnw74Ag==
+ properties :
+  width : 1030
+  height : 865
+  widthClient : 1028
+  heightClient : 833
+ controls :
+  -
+    name : BTN_Consulter_les_infos_du_service
+    identifier : 0x2c0013b0207ec1ee
+    internal_properties : CAAAAAgAAADSBQU+/LqLSbRxGjjSnXcVTf5UKlPJUSF/3N+MY51BF3epC3pKn6HrPYFxmslNQzoed+L7RjkNkekOg9EiwqHsDkO3eXyEjlvr8TknB/mycuBNBubsAF0KNCBBFlLaV0fHjIEX4CCthAKr+Er7xdIm4uHV39PJReVFv/uMgGEJ4S37LK2/THuTwuM4eu3ZoC/y+eGhxH2UiXGpbqk9HHQzenh6iqBMtsBBFqMPYFo5Vhms2FeKqQ3QxgNEWcjg4vmKr0Y5SxXLpiQYkf6lQkZt6MbR7DnfCpWU8oCE+TVNhor96DLkYcoAFoLYEQAWM1I6PTnKYUqDgsVezCF4cErj334VkAb7l2qySzOptU9TD4eyA3W/hTXSjRZ5Uj0xa50SVfdORokF6yXmElKOmFo9/Mmk5f5SB1e7WwvSnt2iSQceFuLrghlOci/xlnTWRHJ5AUaRidclBqnwVzWRbc/hls0KgHyhcx/H+SpfLTuQxOGhOJssXVdxbmnl0wv49kv8suwccILHAdLku+kFZafG91OJNB3K3pGIcvI0yJSgqjMHBzdyYkE+8iBi34Jyi2Vp/mp5OZRIJyGOYFNtwLtYjdG4k9NVoRqbCkVZ8kJT1rQ6rGMOszd4xJaY3lY8m8pwNBt+I65H3scRcWMj6KocGcncBePtB35OIPJ+SazN38xFWI/TFXApsbZZPLGMTpqoeOt38U6WC3ot9FMVA+QGhxAznFHdZQyI08AY81cUDnoAsvwxeN5OmMQXPl+zv+pASIvRrDkeeaInUG9/x5XqdGkk6UZpq/UJSmmroT4TkN+m9GiCHUwyQkjszMXDMK/+LN+EFyV2d4QI/Kaacai+1RTYX0zOpJc8i+41n2T56cr5vXOflehfU9cgfr77fyesrOjvwQ/YC8uFKG8o0uiDx3Zpx+efHTYVlnZlUDyxVPlNjfCsZILQKR42itjZd5Os3caea3njRDNfqmnjGj25fiWG47qH+Kx1zDpB3remsSAe6fxJScA/iPsCbree5MOL3DKk/Dqt5lsZeTqPBK/HVg==
+    properties :
+     x : 13
+     y : 699
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_ID_Structure = "" ALORS
+         	Erreur("L'identifiant de structure doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         SI SAI_ID_Service = "" ALORS
+         	Erreur("L'identifiant de service doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         
+         jResultat est un JSON
+         jResultat = Consulter_Service(SAI_ID_Structure,SAI_ID_Service,"FR")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR
+         	
+         FIN
+         
+         // On force la conversion dans le format de sortie
+         ResultatAPI est un JSON <description="ConsulterServiceStructure_output" >
+         ResultatAPI= jResultat
+         
+         
+         // Affichage formaté du résultat
+         AfficherJSON(jResultat)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Résultat
+    identifier : 0x2c0013b02081c1ee
+    internal_properties : CAAAAAgAAAAnGJ5vo+beCDB61/KBVplWB4TYCC59QCqbJve48KxXTnO5dU7zetXzBn+uHP2p8XHdNzszt4zBQs+1QdXnIAKzmPbG1zphh7DO0OJaU24h8KLoeJYyUmARfBiEmKFQoixRx9KNFkfRKhjpWEVdwiIARA+jVGHlJSS0P6ycfItBVwxK+64pP8Ad0GoC8gIVlH8H+dkhfHdw9ipllz4ycT12NJEX84Dk9Q+7ukvO2eylxsS1mbZZNhubhtVajKnb0GXLEan2TYWBGuRp3ZAqUjG5SmzxHKc/D9zowUKDXp9IGrecPRFtNOQpToa8JdHIeWhVwc8EfnvgIVgOoEXug6F7sCnIE0Nclp4p2XQJzvz5r9def2GuPS8WfLJEf+1Lhk9Muptw9ck0s6Ke0+TASCJZqxYFhoMQ3G1aeK9czqwSWyYonhCAHL9sWsBHnofiQ9TowYvLolTRa62Ke0Dk1+/bbEnHk3OCtght8QnW8Nf21skYFJn4kseqRMgOYthjgxOaBDwYG2ALMiXpZ+3cD4yIZJ094zNTzwSxTiYBcnHkw+twoJCCUtzcs8jCNiGav8bhLkXGbfBWPIkg/Bpw5g5gzOi5lR6ESmcCJh2OFxw0Q4553yitBvp2lNvOhuL6xOarPnS1XdfOIeGue7oiHFCxGa83D0rvmMBYn5CtotyzZHnHg6iXBZ4XRtFfHfQJf8NoUOgnXvrimHD147nBgO0SSpbocLetc5gBr9FYPO4nksjM8dVSt7vKEIKFzLbbicYyIzcY3fflQakObL3vcNjEaM/WAqBkwUxBrb3Eq4NO5BdYDUxo2UecnOBP8E2cDbcaCQSPP5XQe3jQ5wESSZjPpKYgzWeJXjDBYjklK/LDVzlV+siqpdtS4ynCgtB/AkzuL3gg4eqOF9o3MAYnGeSSi4bqjiGivrdg/JJXn1RUQcDLpEZ/IC2p0xG1DBrGtOpSgAT/x7BajJPQSXIpNJBH1ZP+GZNMsK2RlcGA0AGJCVLgGy76a1hdwa+GKVqXgPHdsBN1ywzDOUBGLboY8suGEeJwvC/Gt0lW+cEdvTihiNx/NdJ8d+FQ52qo/MFPdipyJmR4G6e5D/dnSxGcwvzxUi84iZJQj6Zn6m9g6CspFLe5Kr9Yr1t1CGyY8qPNQpCaYLvBEJ8ol2p+n+Ty/xdQFGV6colm4FGj9XIOiSXyS5DMaXlgxA+RUEev2EYNj03PRLHCGPGinydhmtFYHpKFic6WgyaICw418MdOqXZi82H97zzM/55wD+Pz0PfxiO4YWnMzw4G/FOEgLx7kQV7TRHW10b3GQCuWyWKEm5tkhYCRizUABANEX22xhsOf44wOYat6M41M5Yhg7VrkgAsRS2xOrDcXYMFtqV4b2UwFd/gz0u1w4gFq5U0=
+    properties :
+     x : 270
+     y : 130
+     width : 751
+     height : 674
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_ID_FOURNISSEUR
+    identifier : 0x2c0013b02089c1ee
+    internal_properties : CAAAAAgAAAASCfLHwTfHLye83OfQ9lSxOu8m1jtElF74xO9okKyEDNgwgLkosm95F1Urx8KBXAikCCgL0y8NER0C8G4AzSZsTDx4hUkGVJ9I4yVTm/rJPNDC6S6jGE3INOZ+ZV+ubruQByuWnQmml0j9aZuyUvbxay3GFcYEy7Hy70azTneDqyvUp17O+5WbfKSZkgMHCRZWIhnGTB4CdjHVBbkzhiuKtnZPcJlZawdJL0h4I57apgIsnnwHaJVY7/P25lEwC4Aw3qLX8v1Im+zXeAi5R8A/g4Bq1ZUgsHYnAsBp1NcIYTxLo2F5xGo3TgzYQZ7Kf+aaaEXNxxbh0ym7VKrqhvKGFb1QkWbXk3mzdELJhVmz362IFk+6Qga3hm+lKPAwm60TF2xoNs6bo9ktG4sziwdva983rAMVRsyOHOJYL+lOep+M/g+asAE6ooy4CIj9OF4axkhJFX4dxUIq55o5VNhDXlIVunm8ogsKI4YQU8H7AFraaLs/t+Jk2P+3pMIUR++ub1lGGFj7vYEMwATEZfZbeSh9xyud9jvenGupE8/HGFfSDAaSBSzgBfoql8/k3l8lLXrq7zxn5XB4s6yp3x3/A3XQkrAmIvP4Oi0az2QhAWVR80rys6RO2CztezuJq0jxO+BHCqoNzwshfIaAhsW/07bDBHWWE/U1iRzdhvnxc+paGnTvGUV0FeRaGKubuuXbAnoj3gWLyqjema2DXgt7D/U5s447hSMVkBZi2dtjNbGP4SkzOXEWy5s2TG+JA451oIpTq0ml6S7tZ8yAfV4vA5lewV1wJe8z9xxLGSj2jSe3zc3QexM7KaSXZDf88LBupI6isOSyheyW1BOBqw17oOHAwbltgP9qZYwKIIgMN6SltV0AHdtfsnXWO+aM7wXMf6cLtGqdx0Gia4cAKFVFFvDuYKlCtmdwRzgtTwDasoAtBvKu354Q/TbcfEb9tJmLRik1Fh31mEfARPZToQZXhkBze1gEGGQPRutowyxU4w+SCDLmlZzKqVjv1U3MAzRpLZYUPLcZe5yLxYZSGJfe1XVvyvV/+ZLCHi4P6vnlo2Y8Q15XupWlJl5XPhQ8MI6RS/70w1+O+mZ2ed0Q5eHsQT6H87ZPF5TJQWn1Dni6REFph9Gdi4t/M8boh8Aw20E3rk5GaQCv2rKSyT4YcUb7ht4T8hvmUr9KtQVF5LtjQoJOp/SldpYKCc/VArdeVpK8RGBzNNMEY9RgarUQi51de5VMQaaxt33lSFVwoY/jwye7JxTrhZXacus5iXb2oicn8T3gcdVPERktf5P4vMdC15hWHKf+chUvbeWHYluUdW7CM5/EDsdk1tMdVrSoM3oSje5mcX0eLghTS8b4of120Bw6aGw3fw344NqUlrXzmYfg0NhcZt8AZgWz+RIEia37+ZTREIRR8X5u3U09Fh0e
+    properties :
+     x : 11
+     y : 323
+     width : 253
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Consulter_les_engagements
+    identifier : 0x2c0013b0208bc1ee
+    internal_properties : CAAAAAgAAAB0A6cTcxepy8/4DUe5f4IAGD01kCYq1WJ1XYJJvUb2mksp4jjz0lE8TPm9PmGrDmkAcJArv3nu+GW2wBHKFUZD5bB87IyJBtj5v2aXDRagP9FIrfGgK7WAtxFxXqDqocE9t1hUFQom2YD8g1sv+soFr6dWYw3kVQLwJqY0IOFk/0t0bCoZEQQmaQ3qlsyisqQV3Hk5TFHMvxQ2zhd58u29l7cFxbCrY9OA/nUUOEA7FN/FiQDVQ/JfwVqvW7BNPBXhE1n4hiK5D/mQz0RdJ46uqvmXMDuUaqQANxA7V/YzMQ8/KPxFF09ltcPyN+bln27wiAPqZpQtjRzuvtV2c2o87CqikGXVem+DLuJZv3usTuqCzVwKaGX027lVXb8MDAW3dKzwtVebLZYOsNFgja9ZVCSK43UirYZpRww5fqeMdjT4Ovas+3gTiRScLJoFfPLtSohk/CXfHJB0cebeocSsGq9k15/+elz5FCf0qcmwICgOZ9F9/TmwOWo0pTXbrPgBy5yWdvpfmqGdfQqLjog9hIJjA7/IeYWzCTbrEvmhWcq6JZh6ioaaHRfaMrKDBARai8QkTei3xfSlQK4BtcBj5OAwsmOl7m78zU2grifYUaEVvCQmm1Yu6Wdki5bjnuvDuzXBkTgsbFwEkZCTxxk9qpyCcIXjjo6N2Wx3zYnqLoeCahLjNUH7dhWx5ekrNTd9dQ/weeYZjZkayJD/SE2BXmclCyfnHLQZ7Lr1BcQdfaFtUOP5YH2UF0MPC4+Kev9HWT8+hEGzTamqgN4PcP6xQfz4OO5hBO0oNT08jQuIbypXuPuQX4VCvTcOlymGW5Stt4k3/d+TLWclDnskJrHbIw3XyWVF7kjwC5lzqAQlyYojUB8wRFK4KTFFEI9pxflUHDnnwq5oHJf7LfcBwG7Rf0KcSdheZ9vNfL9t5dpeLrzAP3wguXPwb4CIPkH1I0mC8PZPdT8wI/x+bvjRbQBeIp/6DUwllIixF/qA4KT5k4j5v1oFWwehaKFspI1klEpFAb+jz4yYEZZ+
+    properties :
+     x : 11
+     y : 577
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_ID_Structure = "" ALORS
+         	Erreur("L'identifiant de structure doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         jCritères est un JSON <description="RechercherEngagementJuridique_M8_V0_InPut">
+         jCritères.structureReceptriceEngagementJuridique = NumériqueVersChaîne(SAI_ID_Structure,"014d")
+         jCritères.parametresRecherche.triColonne="DateNotificationEJ"
+         jCritères.parametresRecherche.triSens="Descendant"
+         
+         jResultat est un JSON <description="RechercherEngagementJuridique_M8_V0_OutPut">
+         jResultat = ChorusProAppelGenerique(jCritères,"/cpro/engagementsJuridiques/v1/rechercher")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR	
+         FIN
+         
+         AfficherJSON(jResultat)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Rechercher_destinataire_à_partir_SIRET
+    identifier : 0x2c0013b02090c1ee
+    internal_properties : CAAAAAgAAADDDQBsTnPUFrncmHXilEYML+AuLQe8tBUJh21jHtHuDBzCeX1y9OhGTkdm8kCgQpdrPdeSIoszkWOsQlN4IZhU6Y15MbcOitDZfv4eqO9AjmM/QpSbkF89av+1xOY5s4qTG1NzDnKmuURvOJWBETa4da1F3mYWtQZcn+wuGkdTde6bkfCeF1hf94EuWbQd1OD9iI2++OR+35QUoyvMWVOY5z4oc3zt5R5t6BoXFik/Fs8tkg7s4ZxEL5xkJBZoXkLBrGIk/CRISNAzOZendglV6Vx4MViVpCocElX4KLP/oKpOH10ZxuvHlKIHPpbufSSgdZBUlFjkKwgmlI+rp+szLDck03H+eFWcyS+Ham0aRJH52bHQLzr17FySboYpjIk4QhA6VlU8M9KYRPg6JLhrgGBRMq4MyO6laVKrO3Fiu8/OpdD7W4L4XwGXYCpx1UEucx2yoS0o05HyH1krhhootJReBybI4eAJUEbXJ0wdtc+1NXyKSh9XWVMZlA0vHb1bfaewZvb6UJsLqsjwLeGcXXrvudEKOaXdH6NTkzxZSjSE6QXU85qyxS68sok5xKMUKvDFThchsT5QC4Ux4wInKr9j8EsSn7i+ovPN6JAZfs4olz1WhNSXnSFc/W7fgZrTUbCSacNFlkkCnsPLQV3xwr+0b6gdgDUv87rlx2vCrkrDjIOzuj2fcVTO7Hm/eH2KJtVdwh3jyclSWnVjVGZTnQ8o66XGYNgCL8lEPvNlPG17cvcKiqAUFvqvKdZUrjbErAno95L2cjGFZUoAX26RbfCgXFUVfsGvYqorq+E05XhBk+RZBs1Pyd+D0aKG8SxEo/H9JwAkfFRmKQMW+JfWmP5tehn+ruqvdi0SaKi1XqeAX6NjpuHnO/OwInUPCfY/JPqDYZzZVTd1ahoJ/wM0UreCII97j94f2a6/dh2uZv8pUs/CR8WCwHrjkhDaGP1qXqO/Ry1+zqzREDV1hBjnatLAU9aDSsQ6aFWffE6t51PJA5E3xlRmNvkSvfxMHfhgHB5ymWX5m5YxBiIs0fRlPEp7JOgi9WFL
+    properties :
+     x : 13
+     y : 727
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_ID_FOURNISSEUR = "" ALORS
+         	Erreur("L'identifiant fournisseur doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         jParametre est un JSON <description ="RechercherDestinataire_M8_V0_InPut" >
+         jParametre.identifiant = ChaîneSupprime(SAI_ID_FOURNISSEUR," ")
+         
+         jResultat est un JSON
+         jResultat = ChorusProAppelGenerique(jParametre,"/cpro/transverses/v1/rechercher/destinataire")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR
+         FIN
+         
+         // On force la conversion dans le format de sortie
+         ResultatAPI est un JSON <description="RechercherDestinataire_M8_V0_OutPut" >
+         ResultatAPI= jResultat
+         
+         // Affichage formaté du résultat
+         AfficherJSON(jResultat)
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Consulter_les_informations_fournisseur
+    identifier : 0x2c0013b02092c1ee
+    internal_properties : CAAAAAgAAAAJQmKE8TpVdaDJEXL5OVkPLuGJaMIdqxZ+xjy/5Bd0NgI8l1uIispkZE38eL52cMHpvxXQoEG1r6GSQVsF6KBrNnvP0fFTUQQXsttaWrEkl5U23FGMleTFINfpIGKh3RPNpmZeEPyFKK09Nj0NkGvd4FpNvl6bPqnxyni7Cnfqychj/My+MNfLRILZdIA5DtF26m9NcJbO1+FYnyn8N80Ip/Cw42TzaWxNtLZ52tMdUt87QoY4K3SG48y4/noqJAaZCuocAP5QnmjLkYEriB+5EUqkFcSv9BBwikkq5A1ttNrI9y2lqMM9VOpvDIZ8J2yc04CUkHK8AThGcKVTtRlvSFFw13mknOOooR+Jtt8AaHnf0cmAJX5vjEhKnFYn3rEYMNhqZkMw3RIMWIZCkpoboI45ytoemJBVCRapO7ckwxPQWSxnLUIO/00/spbj460+XY1CDU+YyZEGj+uH4DQA2MIqszZePVK1AMJZqz7nfZPXcagelO959csFqs3dFy1fz/Nslhxe+rNbRqa9EPCXUD/squKHrNbAcAQgqFeAVSu90toBiHXzQK9N1/a8T8rfV6UOxxQU9rGZREo+tvGSWQB8BUCT/uktH2BeMTeMzbkdlLb/VZvkLLZh9q8etEF6uulndny800jv+7zM8BCkGdCNZIVCs44y7JPK9C6ttU2A8SwE6/zMUHF7Far+UzApT/aqV4Yi7ij/hwb8q4lyXGD5SHo3vw2FwMp5q7YAZzDQxwDjbzNBQesAngNH4cV3mX5pgJPdUySWdm9tIl2AHHn5UZLeZRb2J+/sfCBzmLcC7Bk2ZyRU0PS4mrPVaKP3KA6GePEbJXs7DmS3xxqBNLyhLhcZs6PROaovw2RIwi4TC0QyOyOTM/XBWxRtIS/R7bCkHl2wOVSN6+Q7NYcGDXHjr0Z/DtZRfEQnpp3mOlWzx9cnNbUJqahZphqkOdxZq7sSMDo/WR7UaVkOpboFCLDmvXihrGbYNqNJZjQHPQlHQdPxDF6wDE94F1Yi1zDWmIqYVyHNg3x1WoRODyqZ4uo7umVrLisB
+    properties :
+     x : 11
+     y : 293
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         jParametre est un JSON <description ="RecupererStructureActivepourFournisseur_M8_V0_InPut" >
+         // Cas particulier : cette méthode ne nécessite pas de paramètre
+         
+         jResultat est un JSON
+         jResultat = ChorusProAppelGenerique(jParametre,"cpro/transverses/v1/recuperer/structures/actives/fournisseur")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR
+         FIN
+         
+         // On force la conversion dans le format de sortie
+         ResultatAPI est un JSON <description="RecupererStructureActivepourFournisseur_M8_V0_OutPut" >
+         ResultatAPI= jResultat
+         
+         // Affichage formaté du résultat
+         AfficherJSON(jResultat)
+         
+         // Affiche les identifiants de la première structure
+         SI ResultatAPI.listeStructures[1].identifiant>0 ALORS
+         	SAI_ID_FOURNISSEUR = ResultatAPI.listeStructures[1].identifiant
+         	SAI_ID_Structure = ResultatAPI.listeStructures[1].idStructureCPP	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SEL_MODE_DEBUG
+    identifier : 0x2c0013b02093c1ee
+    internal_properties : CAAAAAgAAACUX0A4WKZ4j2a/edpNDfMGeP8V35PdhPwTdS1tv8zUYhmxA0POjOSzAb6Y8Yb+4kOq6nzwm+6zjkNts25vAE8VgTReSTnUVsJx2jDY94eSczkjiWNCAp0/En5Mbk7NEMk5go0N3Zwm+cYbuU6q8asU8XaCUjvWkmYQNbhzJXW2JzrkIKNnvna7FQa5AhV/EucEuoO505pFuPZpwTIFnuxQFM2qDhOBFkYIoDHkm4koXbD6nGeckrYh+NTtUm6YOK/IF/JDyHldTLoTkvnpKRnW4Df1dP2puBkVK7md3OhXLzwT5pwhZkdNAitouSYQlq+61OlJMYfjtB/aDBj5Nt6RhW9qDyVWRcZf7dDwcEDmi5PhHlw4iSpOJDaYGaMK0QN6URFuXYRqN8TsG9D+q4FDmsRu9L+uB8LwxECbn+4/gwNin/O3a9M9LSNMnNlAktwD05RPetNFS+mllX56rvClMxesNY6LA1XcaqKaCg+mcYfb58hEJkd2N9Ri/TbrhXGiMWZu+JhPkeiM6d3c9rDaGWYCAvjdDDyk5VhI7pUoY4OVTx9HjE/5fCqIdMpkc8zLmFMJjRXTDXB/PS6qKKZv9S7IoPnDGedckpenm4dSbwM4y9CuvoKZaMuVpDHKTdcq/TFFUvBZ++KlU6iyoYWO/cl1yN5VmY4WBtEDDOvPyBD/a/larPjN/5gytHiQyd4Fr/Isx6XodBW5RqSiRys1Y1NJ0HtzddRP9nwAqxZfXa6wkcjCRAJj3H5qlaZzgNoRPMsawDESPkJdCs9/4ff6BL7KHOmbC/XbdKyqOAdlcDo0wSddfakvrvpfP1D8u59k5ItYlbwUf9f5f4DQtSZ/3LV+OJEJOwbM/Rbv8orArFL3VVJoYESTs4GD4iGUZjO5xXY4M3qpcDbBQ4WfOx5TA+K+viCpPWbwWTrVpSoKL2HeQiOefXQ0Tfo8RjUta/ducEEmDiCWjT8lRfX0vzWI0od/49l6gN/sxfukqJ8hirUC1eEKLlsVx719IQk/arwPH+hXBXCksS+OLEJEPGPXCqMZ33Ik9/8JQJekOSFEfXR8gd2wmY8yGUgkQzl7Sn//do0lSHpHrTPdVILS25+k1ZaHtd3WQRR9fY+qHowHOwM6bDuAgYlj28Enr8e+gOwt0Glh4fdre8twzxzRYczcvTUx2urnDCgLNCdWmZxVI/kGBBESGG+ZZZm8aUFicilxDfEPv7PpxOW8VxsWpD+7LmcIQz5Jk3LR3WDFWNLxNtcGcDByv0YX6AyNVX6sR2qOxK31I/nV5Dw6heABlPDWE8PeRHKO8myk+6xq8ouA9tVc9tYs+6v22ZzIhLRUu3g=
+    properties :
+     x : 6
+     y : 166
+     width : 161
+     height : 39
+    options :
+     -
+       internal_properties : CAAAAAgAAAAgOffkNIidAzRbqGSlkpn5vZlzD4iYlo8KR5+ElK54rGYj4B8DnHs/V4h8OpaHqqBZiaBZZn684KV81VDSVyJnNK1yBRuF5+sxL3WGlbTVGVSSO3H9Kjqiv5TiH28J+BGb3/oxcPhJqBDm5iK6DzJKCuwNkia9RWACDRU=
+     -
+       internal_properties : CAAAAAgAAACbW+GNGNFZJeccko8h1jl+3J24FG24nqswcewCCVlw8JxibMEwXhm0HXuZ5ei81T5WpC2DaiXXzAge9ZCitCO4uGdehGM+aRJSD4e/M6VuTkIoBwjP6bBbDuYM7n+2CZK1VT5SgFt5MX8toqfdqCRjaoLUysvSAVdD7w==
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1+
+         GereModeFenêtre()
+        type : 17
+  -
+    name : SAI_ID_Structure
+    identifier : 0x2c0013b02098c1ee
+    internal_properties : CAAAAAgAAADdBn5YLP2NecqVedMm+31C1LWlTyAVkWnUJmFMPEmMy9edBAJijCpqWFfUXObyQIqlp5DvtGI0Yn1qIYy/NWRiXPy1vXRAVE0ioPLZ/ByMsQBrsWAHXgEf2GS7rnpOzYEO+MdUBnXr4TXlrZUmN3b+yOfiqK+3eCNxiR03+GW1JeYiOCasnclpQzxcXkpEEl36t7E3JOI+Dm347sX2USBlNNmeWLxSFd0Z2OUnEgCrEzX7MSr6w3yA40lV50tQFSVDzkiHHOH3TDTLLKYxeY5WKm6/iDJTHMPAaBxn/tz2yWOACF9hWIKzT23sYi4dg3UeEOmaKlEDPZc5Mu2CV6LUOG7v63wAxXWZPpq6to9hEOPYfipsOr6IOIjnCqO0KtXIpNvYO029/xw4f4cWq/OETZRT8X8id4o0n5Tl8hfXSL7BZKL236TRI7NsdllcFrdowCve/b0ti0u4cJJM2yR1h4aJPOOX2Bop4MEAp9aZJoHWHZ9q/X9ST6RtJKMpDCGco445kEVbP+7XH6wIkJIPcNan/oC7V6XMD+T/CVaV6dHZx4HxiYVXSkgmvXzfocOYJZIVFB7+NgfnBWIp6s/zg4CgUyBm5rWo8hv48N4n+ya9OeGxUEpIbKRvenxDOzRb8TVokkxKNYzobGZoOw+WqAaaLU6pLPHDhFx/gwtALKjBVNxg6gsGjEEt/JjX+AdxG5VQBETca7EaUioL+6Qy4KmWqwZ7Jp767FaQY9RzXw2amk+HPL5oLByHjNo5hEDV6gUAxl/z48A3QGAHIbjwm2FkJTM5fmXirjJLKniX9+nRTGaxJUlfhmvZkJiRWUfXdRZu513HIqZUf5eZLsJkQ/w6DKIVNPP9UQSaFWcQNM2u8HXSDql5ibTxY7K/25iRDCWKR7srMAr7UheeM218XFyJIwb72//HFnVFb+3lm54ZENnUsuxx00JG05Y38k7t+3sdwc4iPFgd4/VCLRVuu8fyXNIojYWBp0Ci9lGCark5tGj6GJKFDHH/SP0R9YXR4wTMGr2fqKLYtgnUls7VWyX+NzrSgGyIlPHuOUlqhaj+XmOwpF+a45NqZDwZGAJ11h82wTAnklBplKfn03xoNPUGeJXildMNCh9lTiFPfxq7UvMcb7IjFm9kV2DTkPwsPHaOZjJZoR0EpIn7iXxskeBjYV624hSp4CN78G3EV7HOfvEQfNVteNYZ/n4aIU4AU0/0a6fWfmUxa9nhUXERMdtiglEhRex+vMvggX/kvWd9P7TCUfOza81p1xwJmhyR0Khlv92Oy5XoSFTaEwXmgYxLla6r04QDePHJluZ0HAiYFOgGVF27nsELOUdk6vaOCHGUXVjk0dvuzc3XDimzt+nKVNRwU/hAf8dUqi22Ck1ngwGOUVA2J5aU4kfk6/FxVJ9Qg7Lc8BvaOP6+YQuhKv1jDCeD/3HL9SxsGmLj8EKxlykiuQ==
+    properties :
+     x : 11
+     y : 370
+     width : 253
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Consulter_les_services
+    identifier : 0x2c0013b0209ac1ee
+    internal_properties : CAAAAAgAAACHc8I4jm9FC2R4Ky/SPu7TvbceX118juUgwUgjSxmIwKE5e7g6v2Va158MOPnzd+vzT/KyYezXoc70Ous8c7MmI9khN6bs8ND6yIufKEYwezr4gJgQC1mOLiyVOmUdKleRZ8I7rjBQA/MQI56B2xTsxIAgtoRn6Ow2QL9xDAVUirxO3k70u6p9BQiWkzazKVRnPfaYwjFvzgFcwlEpootUMApZOziof8r6LkaZ8oGl4gdqpwLvS7CwFXyFKpeKo55erpkw9fYcCJdmFHfgXMbJ7LQ02XgA69wRicTELAgkc8yh9APd/Ujru5eBLSOROZPCofd/Ogd9DtzcOwFVFmADJvL4WNOlKd3/L0Thb3b4FsJ5AzIIPEjoDOAEXq60CNuwDxolH8hMoyDvbuDQ6zEgXpjFNKskt1yOif0sQMlwwIQU7oHBGmbqezKmznW9oc028pspS5GtNw0KLBmmKnm2iDCWTIGkE3S8XAR/02JNZlQp2rWg0vhoCU+gBPP4ancoBCyLx6xnAiwSKbEDqTLyfuaPV51sxg+QtyO7lW4N+9oOWzwXkd0+aM2FtFCvxMzJ+gDW2KuTaeslP2yra8nIp6685DjQopQqr+fOEYPaArYUiWV6n1EJSg2/yHmUaoI6aJ2tkom6KdYRXDzEPOFP3t3Qi+AulpFgHVpCFpsWz0qPRz6B/ZeTpiOO8PsducIb/Q9sysrvn4PxizqpCaTUfDg7efVdfyn54Al4Ohs4KqkM5Za6DmShTbU54xv2a1HVuvmC+a1zGPQish3vxxqLCoiYjA9zC6VJ9hYZ3NBmmbe2q+V9ZkNC/0Uk8snj8nNBlUiTwlIxjEIaUhv+jQrCA267aRE4WQD7fjDkRJidtzictLt1IpqWlptM4C3mq3OjFU0cgZpfxC3ANYy38knWE5qBVlzgyd9asGgmpP53vnDmWWonat62wXNlPvj8E5+Rt/UfJsfAhoqIhA==
+    properties :
+     x : 11
+     y : 456
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_ID_Structure = 0 ALORS
+         	Erreur("L'identifiant de structure doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         jParametre est un JSON, description="RechercherServiceStructure_M8_V0_InPut"
+         jParametre.idStructure = SAI_ID_Structure
+         
+         jResultat est un JSON
+         jResultat = ChorusProAppelGenerique(jParametre,"/cpro/structures/v1/rechercher/services")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR
+         FIN
+         
+         // On force la conversion dans le format de sortie
+         ResultatAPI est un JSON <description="RechercherServiceStructure_M8_V0_Output" >
+         ResultatAPI= jResultat
+         
+         // Affichage formaté du résultat
+         AfficherJSON(jResultat)
+         
+         // On affiche le premier service
+         SI ResultatAPI.listeServices[1].idService >0 ALORS
+         	SAI_ID_Service = ResultatAPI.listeServices[1].idService
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Consulter_les_taux_de_TVA
+    identifier : 0x2c0013b0209cc1ee
+    internal_properties : CAAAAAgAAAC7BIiSTAbjPOc5QnonnBgXdOQw5jrsaNgCLeFvWJNiqsavpWLP+KgL/is7D9BL9+/ec8TwFxozSgLTlB7fa5RHJBs56eDKepouNtAmcA5qYrlxCK2uxf7lqg/po2QijLvOIAIQE1vWLPH04Pk+KLx00jZYAWgImwSOWX3rZUVaf5gbQkUXyIlB69ZMXSL0mQdVzRCUNZmowmyNwpG+RWxTSsMg1iBiBFFcG52rdioD/7f4ljUDFFMJltSowq7yTQsi8LbxkZcRzxgWFIOdqepp8LJiNIxdOsB5VYlpAD30uGoNhr9ECbfezo8/M98FrmOSh41YwbML6O5GxHEkCYIGTNFefced6fC8za1eH1J6Kh1v7uz+/PD66wnhV3QoW0WEZENutDZE3+DQdVu8dA8WEhdXx2w7wSPAL00sg+mxiD+WFwCirFdsRHv/lkf3T+SOGEWgvLlCnf0ET4AxiDCnZpZwpnFF3Kdu4gva5fuWwR2eVV52IuEYAskkUoZB3fepQRoBz+v/CuXL/c4ox2ZhuHnQMhTa9lMGKxu79Sl8XHlXToVjAb25zNn7c8aFlXmmnyUOH0asq3wwUUVsw6enBbvxMQ3MVsx74k+M9IO9MHirYnuVJ06lJaE9GjlBB8ScJo7aEAniMnjyH8IeZjRB7q+6pQvawIqF/q51onIYLzYCgdq/JWjs2YubJ9eNGrdvZEVhQvar3LXvt6RPzS3QQdDrWv87dxM/YK4wvgfUGmj/JULsYOdwQMiSl/kiU30BX8wLpVkGT/FrpQlXGFtjMPigs+MjXI2lmtywFjp4R9Yh8XW35Ur5xAmRHBRw/rv16aDVbeJvRsjJ6V/ac5MZllWsaOEO7uYz0ZK4JnN7c/IZKbUaAV2/RLHa3frXUnvFAodEi+9ESLgutB+IhLHJjbjF68MDxpgkU5qlWTgx9CWnEMjk+u9Jcr/L8gY+2QkipzIOsHxjtwpJOBSMvJF4VkJpK2YjndGYJaZ6V6jwt72UH4D5Ezzl4/pkBIwj8WbLJT45
+    properties :
+     x : 13
+     y : 757
+     width : 251
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         jParametre est un JSON <description ="RecupererTauxTva_M8_V0_InPut" >
+         jParametre.codeLangue = "FR"
+         
+         jResultat est un JSON
+         jResultat = ChorusProAppelGenerique(jParametre,"/cpro/transverses/v1/recuperer/tauxtva")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR
+         FIN
+         
+         // On force la conversion dans le format de sortie
+         ResultatAPI est un JSON <description="RecupererTauxTva_M8_V0_OutPut" >
+         ResultatAPI= jResultat
+         
+         // Affichage formaté du résultat
+         AfficherJSON(jResultat)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SEL_MODE_PORTAIL
+    identifier : 0x2c001624245a576c
+    internal_properties : CAAAAAgAAADI5+bPSaiWBSjmiraLQTJPX98Pp5znPu1lf/fFotR+fiDhe1sgedobhYp3jXYB3oZiq8L4eSjkCSWVtCl6xx+IEfPFjfSDQ6cvooJJ6MFYM1Z29f8Up7AXL6Mejub2X9C5Rawr4EBVWU5dVUEKsB1PhzF2fJBYDV2fUVx+P6sBO7uVmXnynP0dELhL5rfZAJRv7vHAjs1tZFK6I+fDoANnTBOtDimckgLXzyBPq/MK6BmRaVlzbceFVTKDf+pEb3EMjfFxAB+E/MMZHCW4Me8MOz4TFDZwCkYrrczYH+9eMRqx9iO02LclNDx8I7JWZ/zWQJHHtwk4Mt5tCT3IdMfl3h/6nz0/8ljHZYsnVKPd8n66lYW4GkmjdDlReOP9InkbSr56ZDO+Bc5kwSb6CSc8ueW5yHR1oBfhYvdml4boPspTGOkCXocWF8Bnp4JGzvERBSn8RjPFLd7K529jHZxHQC+y2tjC/HWtLmM8nuRfUrGX1OP9Chpd1BsLYPE1oRfZmCGZUelCxGdUunIaRSHNrM0iib655/KfKeE8WU3HbyM96Mxd2CyFnX+lkjiACMWHvM1TV691bz5uMKy/EUxJ/oGL60FBMLKXgaDeY4WiHNArTg1OVcfICwdOL7Ayr33e/E7nyHQLxcRhz/QFxSu3ECrSeFnsdPiVvg/Zucr13Loyu8NZAWPz6JKCyJ2dSFbPMNVgAsFz1VIKDaQSvlDk4GVICheWilVadJ6+pmvf4xjEjfkqMmugflo9b+G8NZyqMuqNNQaM/MYtJ+oImzZbAo+mr9QXpLWi9OFGUE/R6nn9hhcBE0/Iz3w35Q9JmGRRw1KJH/eDbhZOZppEsPQjMXVXm/HnnzDnWSuUc0G6WuPx2e7xji5FlJeuTIIwJ6yMH4zEEq7Rz1CnN+I1V2tjwX+f2UXUX2CQchYNU7y/S9GqtsDUyxqYD1SV6INHCXVC8H1S5aGR7nUbfuvasRwmiItpqjW7RxGW8HaNroN7h1nfgawiLYJalbQuret9fkcbA4kvhlv3elqZpp/5aTGHBv3o5mzO8BaZloDxYcIP5MuPnc1BDxAc31aQ6cDibjNo3D+wVxW1NB2M5WHVYd+NzGysJHdPrJOMzgBwDdVfpoJS0xmtg9VPdEXKcuY4OotH/mrKv0cyxklb2iblOfdwBqIcSZHd0k/KJXnC+EX8dXkjpd0kcAvsOzKkVj18Y/UrdYz8pzWUuXAt0a8mGBNHfR+oledrIfDhzNloBAgFYeFMwiXe/t2VRnP1VknJV8KO0A+3kNEto/VxoalakH6TRCMeMWvLE23lr0JgY2zA/+e08nmVa8W7xMcF2oyrFhu/lCkmHAB7ErfFpUeI7cUAWnoBszCwloEnPcj4STSGDQZZkAABfxEw
+    properties :
+     x : 6
+     y : 211
+     width : 211
+     height : 39
+    options :
+     -
+       internal_properties : CAAAAAgAAAB+9sSzS8X/3zosvsttiGSXVqnEqzHFJYN5K39NskY5GSY4HWT6iOBaegw1/Nt3g/S+OXWg9Qo4un2IpI7b5psB3shgXTUc4FK5tIYaDk3LX88oFdr0fdzLieBPnYgOoNXwnxwcxPimxJGxyqVkJHbW6/ViURUiVm5qbJgWPK3BFXdwXH1xCg==
+     -
+       internal_properties : CAAAAAgAAACFLMEewxtuJGmm8KXLBo1avfbA4NNKSAtkGMwrF6XIju47WTfrFHqaS2gshwBsZIn9KNe0eG4EMqp1UCNTFofwA+J5uFoZXlB4LGWeeZb/LGOG3/XNSjZlfGIyz6uRVGqE/fiZIHr1QfeQEGPBPNN2ZLg8SFZx5Fpj1RuIFfsTBhqEhA==
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1+
+         GereModeFenêtre()
+        type : 17
+  -
+    name : SAI_ID_Service
+    identifier : 0x2c00182329cf2171
+    internal_properties : CAAAAAgAAABgt4Xa9nDb+P7nUnBGYIfVqZFYQWukMCDtWcTPaJFvBNyfmWK90tmg7Kljeu0hueufPJEe/vr9EJBvTmLXSMoLXhXTgaFBUcPScpR8NvMROQA47CZuZ7lvlOw66tVNQx1FdE4DI8Q7UI69htLqQPpmGySA8vpTttMnptsuAYNdoup+EBxxPzdyk6HbsMABP4Yg91BgVqUp7DBVQNL83OHQ2UcSRpw2r9jSWKgL3yiM8iSLGgkSpiXMHGn+oNEciDaYGQBDpqRB3FchiR+Dlck2ebsRiMnkdmt1rpTyJSIkgtUUcu8S8/ImJL6bvyFVKBGgl5B9Hy+AJsmciX5rSbFgXJn4zBHPudVZtrt78muJpqD0rVbCw2SPIgIjrMhK5kMECxYggHlg3ndEFVCmeR+6rv9wpZWfnlOlJaQ25MJYAlry5LePltyMdfGKGWyGcIEmnmnw5BukwjqrL+B68+fqqt8760Fg5VhNckQ7WkwQl9zXCnhxws1r5sgNvQJD7qsaUHsNa9e/AwQp7BYJfVY/L6NRloIfAnpYVniw7b63Z1SpffWIqHv+Di6Lgfj/GkJcSjN8I1Ho/jaeTgDeyYZl75psLbu7tuyznNDFfRYGFI3zLZXeqZRLu7fu8KnJSvdHevNS+yg6LzKnqWFRpyS2zsZg5dBUWDzX4lsVMUrOyTGUVDxL46wtS6pTXGdhHzDQpgjfBlHWj2Dw1U6+AVgiLzBuCdgevZUg2PAh57ZEeQ8H6mq0hlB+bCqhWXWrwFE9J/ka5DZDbxtCfuth14dzCIAJINEKklPzK128CuXojPcw+wP7BUWFWLBY9PKe6eUR9mEvb3asFNp6waJsSz/eEggAUq2s5iAMrNp/ngp/7SpI47rhPbB242SlPiXZOuOQ27jF2+Lfz0RJWX6CRYyi2qdznuIgYZQHKKRyNxFdAtJNAHGniVJHbquXxfDBSaJk8J7FGGT0oY8UG/394FaypcYMK2eBvAH73OAqRFY+hCAtyKJ9u2xCisdpF6/t+q0fX6Qrfg3BMbqI+Zmfs7i+BIMH9S6V+ODzQ5XQgDBVgildJGLJZnOiABJXehqWtrbOrWCJ4lV2Oi5VkQ0fk3UXV+f/W89pNUM65gmf+SYEX15UXxFOCuE3J7gbLtogMox1a+2U9/jP7Sp0GebUdFCuNfUM5qRkCJSEFGs10lz9XpCH/pRM5G4f+y0rsZNtU2G/3mAs/GKhAZ9IfxiIpK3ca4ACKqPbIrpV8+BojmHbS73t+xOz3VjL4B4xuRRvOG6KPru7IUut8oXOCkpZhyuk0V76F+712/LnUIqiMfpvshsjxtnyakbDdxSuRdKzjL28KVE1sNr5Oo435FQeRx2wmRdyjEvHoe5XWPKDjgLDCu4Ti4E+CFCRpzYklycP1FgGZJqe7YPvozEEc007/qom2GaFO7cxB2joaeE=
+    properties :
+     x : 11
+     y : 486
+     width : 253
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Consulter_les_engagements_avec_IHM_et_déposer_une_facture
+    identifier : 0x2c0e73d405a3b6b3
+    internal_properties : CAAAAAgAAAD1aqeJpS3IKA00jvyWKK0Gg8IH2z8Hd+Jti3YJ4cIRY48SDX+QkTMk4PPrlQLZxU2GYjj9vwKRFQQu7cui8UFPm9BteNRxq1mWXZFSDMUIDjWGMtTW8WBDSZgi6eXNwuO0CCW9BLaCqaf73G/mmBNQbenJj2v5NA8xNHeGVIbsiDZYXvCFnUeLxBF6D9Y1pEbNQi3dhP5rVqmv4AURByjqpvg6MoTBlHRwq5n81LhOxefkimMgYBYB+HyEeRsh0eDfqceusUCNUWxZnM+D8qDoORJMANqdvE1Icr9iy+EdCZaav1h38iOzyA6WivZkJ5Uw1n3piJ3pKbb+73ABk4N+h7f32x1ZxGIhh/f6rs4qgZ8v3U/BTTrF9rFgdUg4Z48zv30/AeAo8R1lGhOhjkLRBZiJiB75ReJcsCAD0AX7TlD+chIpaJAx6kCBYDsrCMFn+ru+3KvyPoRNlfUBwq9eK3rgxq/v40ASu4kimilkEUP/msWQUHxTsp/Xtk+YGJ9aT9inXCq+ih2xJkqGtT/nDi2k0eiySe2Bt+fpbdXAOg6+z/G04HPKNZCKrPfe5/smGoQBBoqgQd5WPRuTbI0bDrMDsK/hkqCK3JkH3n144pYw8wfMy0sFYWM6P4ycEM6P98JStTJ0SMPIcF2p8DrhwpESPdIop7lP1TiDebY70Hq33AH1lQQrmVbkzA0+zWWwaOOPUErEx/dMuHdp+RXbM6EG3buj7cAIQW/M4mSAUlWFUEfWEce4llRVE/Sr1yyS0FleoY3lpmfvywDKsK0To4AkCu8md//XeESzZ8pvyVzJDzrrF/6l1akJmV79ZtCA//FNo5HxBmRQPxsqyULYJ284XtNy2Am/iRbrqwEjUmYVuVgqGPg1829XEzAm7DX/tWwccn6ZSTDMzl1QeyNt3qietmHhSjeI7dSNEOht1E+qUtLIKmBmxiQ75g8tc3JFFo0SrbBNsKpGXQtQupNrYeGr3i26tuZ0lWpn2S3hDqBWu7bDyzM4PjrFuQjFRF22Mo3S1nKhMUwPmiQKBet6yonxWiiOiA5r12AZKwYgqhfWCatmKQ8A8b+vEGd+Uuhp
+    properties :
+     x : 11
+     y : 607
+     width : 251
+     height : 43
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_ID_Structure = "" ALORS
+         	Erreur("L'identifiant de structure doit être renseigné")	
+         	RETOUR
+         FIN
+         
+         
+         Ouvre(FEN_Visualisation_Engagements,NumériqueVersChaîne(SAI_ID_Structure,"014d"))
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Exemples_d_API_utilitaires
+    identifier : 0x2c123a230bc853ca
+    internal_properties : CAAAAAgAAADMI9j8ZhztLu09P5KsZ8TnMZFBCdwzZdEkfkx9vdg4xBtT0IROSxQhqUxH55Hkgc8WM6vBVwMky4IA8hLD2VjhLMAuPf7UV9z/Z1GJ/1TCEdHKGRNplM0R++f2E2outNZ0mYz2XmfCnmEh+kQ7mjy/PlkZSSNeRjjtNfI3uzyCUl8lWle3+NkNUwDCHIQCdxeWKACtN6Ffz/FMafSTXGKKoTzu0XvAkSm3vfq9pEnqzQvaaLc1J9mONXtTYrxfMONTUI2ZqP4FKY7AFaNqQtJD9kv442amfzp34O1MtXN28XbwYQCWF0tds3za1kJX3BdvX0UANHyo1IIRcboUTz5lnSUp/hIXbH9Pso8EDerHeKLh6erZfiXAhk4QYUOB9hQbYWLf4FS2P4332WZ3VPCQV8JNIQ5EltAw5RaxCXcADqEl7unl6VgyTv6e3uHltFYavQAbunWfIkgc/uXw+a59wpzDZjJHXQKM22DCoFBUSteM/IVPzV/RFw9DXWyQYeW5TYprX6Z2W6FMFwqmrx4QOPLKmTz7+kJzp2p59GvpwUA=
+    properties :
+     x : 13
+     y : 662
+     width : 251
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Gestion_des_engagements
+    identifier : 0x2c123b3b0e82993b
+    internal_properties : CAAAAAgAAADFs8cQRubsUEgBcOCHc4vVCeeab4pJ+PdFzQiXnn5h8dcvqYTKH6E5ZLlk4AgGIvaro07RGT0zQjt9KvYQGX+m8HaPARreVL74c7GaSIRq7ZSxDMg+WRg5jhm9iYUJYSvPlgWug9B4pPp6b71l/xxskcESCKaLM8sRvV5sZ6vZJXQ5Ai2Z4KXKCYtmNTnbRiaYbF9IhFdmvOHDMnfbrdExO19DJGhXttCZQ/gp3kpZrDpTmdDgH2fLa7r96iSaIuET0pgKU4qDUe2SX4kgTYxQn9318rqe2Hjvf+JShIBeb5f2jG+MRUZBBwn51xSYeGm8ew49xrZ9XvxcRtnCLNh5jMm6dfYfzSOfFbzDdZen3kc3JB8PVIzsVJEZMrW0NgpeKZcSFCxJD5kIWMdNY4qYGhQszIiO6fDYXM/KN6Z0Go5LFzRKGbpP817wI2Vu7O4YBNXKqLtmCihj2eSU7GoJ4lgKjUUBlXY9I6QoceIGb0ireifFWL6oG26lGeuzxYSTBkSlcl75EIablAQ7OIoCJ/G52V8JON7UfFF6
+    properties :
+     x : 9
+     y : 541
+     width : 258
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Chorus_pro
+    identifier : 0x2cb0940807a22c2b
+    internal_properties : CAAAAAgAAACcQLaoB2AJwtXcQ/nL4Ju80nwSLWTDmTXIkBuVl3PDrc+M/4omtgzTMw/pBUwOSxUdjox8q+gCPCQiIKnU8faOsJ+9VMYkp3K4Vz2vWB4paKyaCMPxV17/7PYHkD+PYOe8ctLFmYmAD7qL/7wDkI2uSC2QGSrppE9rXvkaj1ARz1zFdF5SC2eVGYFRVkadAqj1IsL0pnaXfizd5eAFOkVIr8RWv5Ncd3J64KWEriMlHzGiZQgedCkfv/I/SaOb4Z7kSoquvH1byNEVyFI/0dE9QK/1KJo6AlE6VXhk4ePSceFMSD5iubSbUbchAZQOaafBQ5X3TAfX+k45/Sro1lWXs5kh1CTA+4I3eOpYVYWfmXOk8YCOkc7fB+aQV0LuPfp61eJgTzRR1+GhYAOi3d5N5NpqOU9MuxVkMuFMpaFEpfTKP6b8HT0urYNK515mefDudvibngTeOdUe3UJ4F6yTXfOAzUcymaRYkVwi4WJQmi0LXmJqdx0dqeLY6CXMXl8uPJgzKaaKvpQ=
+    properties :
+     x : 6
+     y : 6
+     width : 251
+     height : 28
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_La_documentation_relative_à
+    identifier : 0x2cb0941c0833771e
+    internal_properties : CAAAAAgAAABqXTxBLraaADHFZ0v2pmQcnMaN0ANiGlieYsYRUYB+h3WQz1i3A7eq+R8QAeKnl8k2jkxXNZTnvcHnF3yPHyloJoiBk9OR80B5qIyKfbGxzGsu/5cs5u8nlyZwQ1XXEutIEYsHH1ERUntsNd5pYtbUqN6ICjca+ADJXMCItuqe8r1iXXrDP+kBEdJikQyDgbMvbY1MPRlSxbCMcF5/Z26ypWDnOb5Osk1llvYWSfr/yq9Np5rCigK8QV5NvaXVl83oCDVzlbEjJbU1d4yxHMx3P6F2wMWcGu+EBH89a0K68vXzL6NFi+fp139TRNuiojb5u+aEHr/AGoCGOIs1yXxLqxKtYbZ+KiZ+vM8FD7kTSRVSkKdEnGT/T+GmFr5ZlSv8aZVVkXo/YWAcF/pEow44ZerLpgfnmoxiSV9aAto0xFG3ANnVt2m2wBt9nRvu/CjuYcG6X42PLqOYAwhkGv6AZPs6iSaE/Te8NjxN0Ytja6Nif4fAiUwuswjNVnKNdyL7h9D5Fmcn+kRvuZOVX1glhJks7pN9Hopcdj+AMo6qLTb8m47oXOdVkEqE9rKcCbJwlnUO
+    properties :
+     x : 6
+     y : 39
+     width : 388
+     height : 18
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Https_docpcsoftfr_fr_FR_1410087184
+    identifier : 0x2cb0948808f01cdf
+    internal_properties : CAAAAAgAAAC9RKHJMBuc3WBxqJqm6iBk1g7Pv12k3yNSBqC1JrrvOokne+7vldJv3aBs/TuugQ958+KfYfcMhhdxZpJf0ywjun7ORsVcu0Ezec2iTylXeS6zNm+5jwvlTZSfmLMTOPdv95My4roSZYUhL4Y2w1X0dKhSyATByEU/6GUWEL/eagz1+EZis6ITz6g7KVLM00Egi3Odo1qyYilOBYIcDFWVL8YTQIvSdkBDO2rWgfNAZx+eltIP+Bj35rHHhuZcsQj+jpZkO5fMIYHbPfgIZq7Cvgg9VpzfaRmkJk3d4O1vfg6KlBVRajyrRDevZaHcB8sDeVNWiPPGmt6LU8ze44TPqKOvieBKeze3gFTwfjLAPqLkG4NuHnK0R9OlZ/ZG7QaW9WDYFjN/UvMAi41YP31c/ugAE/duKEaW3wA5oshBSEp3iQvDtlk1hDwaws/ole528sFwKq6COsCEN0spccVFicBjgGPmDT5BVmc17e8z+RU+5m1+0f/7qeKGOas3mtYVNITkCmCUrUl62kLEkqxUWovEQJO7WSC+syfv/WBhSbCSC3gt24Uth74tKfaiLjT4mEFnvQ5+Qdt+NNzOWWc7GjwAfq4Xhz3rKPnOWhNbBk41hFDCWmQJHZwOUEzTLNqsQIxhu1lSlBW7hjRhai67tc88/Gl5IgQa7Skrgc48P6czvcdKEJeFFx/6nIQlwls8HeukzSn8q0t6iTtGcSr4XndCRt8u0SQGxIv5ARdsPb6V+8HaHP/XTgAVTntDDi2Ao2P6ZA0SYh1bPDDQD3GFSVH4YM82nTgGXup4ojW1/BPLbvKK2hCUmfp11du103X+iY5n65GoGqrez6jJ3oeBz3I4+N0BviSlrXQiMQR0bls7j0B7hOC6xrX9+m7xJDQ9BziR+bEUMd+6PJRYp4pUjmFRnJks8fHgxeK81JpMbunsgQnqe1Bn842M9iTXHZdmaFBg7co+L6ZuoM/3gVLmQgFawzpR
+    properties :
+     x : 393
+     y : 35
+     width : 293
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         NavigateurLanceAppli("https://doc.pcsoft.fr/fr-FR/?1410087184")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Libellé
+    identifier : 0x2cb094d90a405c74
+    internal_properties : CAAAAAgAAAAx8RhlIFVy1RD7QYSdLq9vb7eob1bkzdVhkhV8fed6YF2M0L4dSzSCzRRj6NQVBdtCWH13JYpHC+i3eDelCNPASCfT2D2bXKw9L+//RxxbrlLl/QnwQf6T/K385p6hSVVlRHJ5fBlpXYWx1yRgAiQcyAqhd6F8zX6tTRR3gE1lnqV1QmF/Mv+N0dYQ4r3TwLxQooWa+Mjh/q4InFmxiEW4c2WOZJTCGXIaeZou+x/K1A0zjgCi3KfvATADAXl6Q9ORl13xRmgtccs5UFVkdhpEBPvPieJAklFtoU0yJD8kAKaIHsHbz85EMXP94Og/IyMVI6qDyhS8Zc9bnt6GNYZyBcD1VF4fy2JAZdBhRZkimiQ96eGyZXQoFBGhP0MWaiQnEU19iJK1dWUHfnYRyal6BMZwQvIcUvgZ36xSqhStHbQeIpS1TeTkMMwHZSeaeHxWrso084hbrM9Yqq6J6qgJ9m4BmlRqY1D/dFIWg1R4vJ+AcROVbao=
+    properties :
+     x : 8
+     y : 117
+     width : 1014
+     height : 1
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Services
+    identifier : 0x2cb095620c4c7159
+    internal_properties : CAAAAAgAAACxT69Hqb/tBXutm1KDsrEmCoMuwq9GMxi1gEoUXk0DVLYxsRE5Ji4EivCzYzxzFtsY/V7eMdXGzqVO3zQhLHUA03fUUC9eKk5wuV3SdJkhF7DynKICW8gwCAUc4yIbgPjX52xMroBIsNxovICeNqONbg/OWJSTsIymNY1+a6gHBj716QJjyXMXM7pM8yKCuxKlg2jZBFfbgXFEwxGATqoWqGKIR0+kAOTTtoI/rAfK6LebueF4c1N2BJiFsMdKc3puamaafK1MqcHsWfzU0nMUn/vGS1tkC96iM9iSfO6pTVEevVifxWuJegXLBmHGe4kY7a3wCVyycO+mNsbJICNZcH+1rLHBnJ/GS6DCYp9cqv8tG1zmJgseUT9hpy6GF9QsBVAXVRKya0gOqMBuu4/Ips6DTyGEoIgFuvNNSvrbZFTfFG0j9+0zKhQc1noaeQyUdvzLYd3zrvt82kC7bymgFwrtwb2KSeHmGaw+gfJh7L0/itnxQ5GerC6Dq4B6NNkZ6X3VuXKiFySkDLYi
+    properties :
+     x : 10
+     y : 420
+     width : 251
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Fournisseurs
+    identifier : 0x2cb095650c5b7cc3
+    internal_properties : CAAAAAgAAAAa1GUvVFrRlLyJ98WxHcWLfmKWK1yPFQ8CnLSVoRAlX4aPgkvvpxeXyRk5EG7meqxKFhtUQ2h5eKhe7shgf/j9vPFCMM5cbaxPepET+UCAgBzCFxc87SaOnT46/L1XWD061X8DEZ8ZZ20gULjLqyQUlKPohLjwtIgxm2NKJazdnfRcYDp8LuLki0Q2znkyB1iGoFw1mtmsPS1T7g91NHg+awIECXd9Iy/V91iYemeL5aaKnKomRBoW+sKifR9h+HyQCb8bvkUxv8Mavxec1iu/XzBVBgHjAuEgWZ6RIubNSvGVDsWrGvQCCn/dVcFWB8gcoAbfq1Ur26PUTAOt3PNI7rQoiYXET3Z8RxSP4Aco4z3GxvsKXQKXdxtt5uj0TeGiigumL3WtPIz+GCscOQVndvt2HAHpTTFPamtKKsBhj6QSeV6jlLKa4JQsTyK2MdNoQmW6OXbmIWm/RTpUrxWUzT2gwYjP73p61GF72XZjNfbDOzKyoPhT80jn4vJLhxqlD2JRLbMWVqJcAwKlRfgJHA==
+    properties :
+     x : 10
+     y : 256
+     width : 251
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Paramètres
+    identifier : 0x2cb095700cbda952
+    internal_properties : CAAAAAgAAAD0AmyK7NODlyhvP/CZeA9UOJEkZADlILIam1sVjV60K2VwPiAYqYGf3RUYlgzcr0yCwhUXCgqb90K7lXKX2QrAT97DHRaZSlY6/5KX98SCfmLqWWqTPtK1KfdaNbW0t6lHLmAt/4r9dTkFJK4HUVLVYAj2bUGRXtHSGPuXp6N9XvutClxdZTWjJ4CS1f/Fjg/+TcM6HFhtJPDClT00Ap6wQOQ0BaMCHFyfDESDoMeyJrMB4QvgHW+asNZjSN/uK/jW9CoYoP/l0h63RJlDZWYPWIwHjAb3YB+zAgeTj71I9PZr0tEy0CjGd4A+uzg5nrzt+uJJqR8tan+lwK2CFWJAC42ANlzXbx+p215vuU2nEUVftnMw/JIc9T38jA7/oDtpa58KeHdtfYgAEwfudUd6+Ig1M+u4dz2E5vPmSp7bXKTvmggTBtEFlqRMInXwyZxlAFEMfvzMDUqD0UWLsd8g6OUg/pI9Ruwt0EMXaunYVQTWwdr2u8FQYpR5vZJI5g8vhyGxSl+dgmNrR3Pn
+    properties :
+     x : 6
+     y : 132
+     width : 251
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Cet_exemple_utilise_la
+    identifier : 0x2e3c2ecf00fd8da1
+    internal_properties : CAAAAAgAAADcPfYrZd0Mg1X0RQhWhslNGi0b5NfggpYuEEWCNEmheR11BKc73w5xATFzqVyCvtsUJ6jcmPSbwUczIQLBS2RgPPAOT2orbUU28DTlxf+VDeDrHexGBFzXrT0YN42q6BSCDtuPb0e6y+su6DGEenizP7jMGWTtjYR5vCCPdRzO5Qb6NFV4RbBSaPJ7use72U2Lk8bZH/SVCdtwNRU/hunTktv9bL9znR1F/A4v8/25D4kBjxyOkR3Vth3WbChM8Kx5Bp4qiagazPIcuAPCx3LfUFB8yPY9vFjVJRXsLQjHXIDSEz/Liu7AzJP0+YMMlCc6+weIXKAqlZ2A/AfI2w8b7CqeDgo8etTKrq+WodmWTR0C1WxZF/VVzHNUS/DIMRhnLVaQkf+toRfOXNvYy6B59kTrxIIfEfu+XeKrJ9Tcvaz/wM2M3XqOwSsfD0CaLVrSf2TbnuJXwl78iN+bc3Y9NwzrRfPE7CjcbTh4NIzYt1lBODtBBDtd1N1KOCdrI9pdU+e0As+5Xz8VxGtncKbv/LCJQt0ugc+YjWSGfBuBsPtbcWDPsXEMuP6dfV7CDXKrWiG/4fooc5UcVXKlP4xM+/6dx8aU2haTW6niMQCbcFCcaNK7Q4nWC+zFCQ0xS2UQvV64po9W9MU30kg8a9bXY9fFHRCb/GkFbW5oE3nRfTQXZQbMVWY/QKiEEbRZBFizvlpNjJUnafJNsj8uXXw2goSqCvWWy35U
+    properties :
+     x : 6
+     y : 64
+     width : 1016
+     height : 47
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAAAqms+oohbDEI4DO/N3qk3LYz14Uef/aIr0/h1veB/rq5mAQtLwalLZFhF+LRsIKVCXGIyv85EnBfLyKRhELbaBATiA9iRQjQkRAK2rMzEvcfA26kYw/roNnXCrpbCAVemavv4xnGZ0G3Qb0i6TPHD+GV6KnFm//0Yr1GFAGtmuC48JAxCkrb0wb2fHPLQEFo/6gFDkdg/m5gKmE8Jrc+vomIkmopM4ufq5khlRzXJ7+wSzYr6TYyS3QO0Wz88oN9AtlFVXJVTO2Glx6hBGqq6ypOUfhB0bitOHD0hsEUyDz0shhm0o8r+faSV2bQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+  controls :
+   -
+     name : CBM_SansNom
+     identifier : 0x2c001af033fc11ac
+     internal_properties : CAAAAAgAAAAJlh1khYtwrhFrDS+TFwSY+qgOgvDLIYMIA0c8cjzQCUZiyC3lu6e5u/FqVNzpKOjTwDRMaOn8jEOE5GC7xBZV3Ohx4wfycJs1OMZDjFq5m/XUxi+06mj5
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABNfPt8TkWQkBIVCBWIMYqK0UOIknDgMSu+ZEvVjZ5SA13WwrkaZgiAn43kFBhdsnHPgcRllrIwfOoHzCEgeJThsHPG3mvdJvVWZgElhjiy
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCÉDURE MaFenêtre()
+   -
+     code : |1-
+      GereModeFenêtre()
+      
+      AfficheConseil()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : AfficherJSON
+     procedure_id : 2017634279706903022
+     type_code : 14
+     code : |1-
+      PROCÉDURE AfficherJSON(jTexteJSON est un JSON)
+      
+      // Variables locales
+      BufferMiseEnForme est un Buffer 
+      
+      // Sérialisation du JSON avec formatage
+      Sérialise(jTexteJSON,BufferMiseEnForme,psdJSON +psdMiseEnForme)
+      
+      // Affichage
+      SAI_Résultat = BufferMiseEnForme
+     type : 458752
+   -
+     name : GereModeFenêtre
+     procedure_id : 2017634279706968558
+     type_code : 14
+     code : |1-
+      PROCÉDURE GereModeFenêtre()
+      
+      sModeFonctionnement est une chaîne
+      
+      // Est-ce que l'on est en mode TRACE ?
+      SELON SEL_MODE_DEBUG
+      	// Off
+      	CAS 1
+      		ChorusProDefinitModeExecution(ModeExecutionNormal)
+      		sModeFonctionnement = "Mode d'exécution : NORMAL"
+      	// On
+      	CAS 2
+      		ChorusProDefinitModeExecution(ModeExecutionDebug)
+      		sModeFonctionnement = "Mode d'exécution : DEBUG"
+      FIN
+      
+      // Est-ce que l'on est sur le portail de qualification ou de production ?
+      SELON SEL_MODE_PORTAIL
+      	// Qualification
+      	CAS 1
+      		ChorusProDefinitConnexion(ConnexionQualification)
+      		sModeFonctionnement = sModeFonctionnement + " - Connexion : Qualification"
+      	// Production
+      	CAS 2
+      		ChorusProDefinitConnexion(ConnexionProduction)
+      		sModeFonctionnement = sModeFonctionnement + " - Connexion : Production"
+      FIN
+      
+      Message(sModeFonctionnement)
+     type : 458752
+   -
+     name : AfficheConseil
+     procedure_id : 2019100581532243850
+     type_code : 14
+     code : |1+
+      PROCÉDURE AfficheConseil()
+      
+      // Si l'utilisateur a coché "Ne plus afficher", ne rien faire
+      SI ChargeParamètre( "NEPLUSAFFICHER_INDICATIONSDETEST", "0" ) = 1 ALORS RETOUR
+      
+      // Définit le texte d'indication
+      soit sIndications = [
+      	POUR TESTER CET EXEMPLE, vous devez :
+      	1. Avoir ou créer un compte Chorus Pro (au moins sur la plateforme de qualification)
+      	2. Avoir ou créer un compte PISTE et créer des accès API associés à Chorus Pro.
+      	3. Avoir suivi les explications de la documentation Chorus Pro sur la mise en place d'un raccordement API
+      	
+      	Les boutons de cette fenêtre permettent ensuite de présenter différents scénarios de tests.
+      ]
+      
+      // Affiche des indications de test à l'utilisateur
+      // La fonction Saisie est utilisée pour permettre à l'utilisateur de cocher un interrupteur "Ne plus afficher"
+      bNePlusAfficher est un booléen
+      Saisie.LibelléOptionnel = "Ne plus afficher"
+      Saisie( sIndications, bNePlusAfficher, ["J'ai compris"], 1, 1 )
+      
+      // Mémorise l'état de la coche "Ne plus afficher" pour les prochains lancements
+      SauveParamètre( "NEPLUSAFFICHER_INDICATIONSDETEST", bNePlusAfficher )
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x10fade8103ff649a
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

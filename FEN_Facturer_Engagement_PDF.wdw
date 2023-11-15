@@ -1,0 +1,270 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Facturer_Engagement_PDF
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Facturer_Engagement_PDF
+ identifier : 0x2c1229b203591939
+ internal_properties : CAAAAAgAAABB6BYPzNm8Ka8Dl7EBt1VcCJp47BVKQ9j1a5PxuizdaLhvXZv4hlFKp4WcNYpE5FPge5u9i90CpOi7aKVMGW5IYB3cC+VJBW3qjWDpiuVTxQnX0UiAwdvB54AxJdQikaoIRWDuR1ds0BmH5+8cDppPfZvpvP3z/pkHRqJg4UA59IUJvJLh/xDlyRXXTXb+USdxcELGRo89cKKDNZB4fnppaUqNet793eIb2Opnnobo2THQdnFpSI/p0DKkfqlsA0yPI/sTukZg965TVynLrZQuzrQJNXZ2jfziAYz4oag9nlHD/rIdketIhMEB6sddlfW67dqT9mOk3/uOdHVSaEuvARmJHN3DVoDLILHVq/ELP6f/S5FjJ3NvY4R57GlTeA4z5DeRj6wyiUSMLHFV9Ii5YJzC8WJuDP02B5n+mb4XaYVyIV40wXeCEnXRBsGStriBTN3JcYsIAGAehwYqYLUOcFwRATYtsnOGlb+oFe6LtVL6N6D2dsuI0RpKR3KwF8+lIpaXoFeK825FZuOQlNSfX1SvR24pEjh1EZbiuTk/qKTIxd7dc1yTbd+6cc5Lv8HgdlbunmDn8Sr8Dc4QZYPNMo/KGac3ak9grFn0YMX3Lr0te3sLIDs+IdpvxAAnxQoHh0zQjILYnpG+sZo5jclGRdtha1FnMh7XiZUafsrkcHim63UF+DabDEVnLYByO3ziztXOhiy7kiAKhq8pwlu+skA1U8ABPqEL84vePUH2oBsSaI99hQtUu1V01xyCbKXLjwX/7AX1FNVp9n70/hQ8vlBHTiwLY2Y/jd+/EMf+IOaOJXXppWp/80aw/1YqUfthqrQ4BSICjkAwPf8yD3MyaE4kTOuh3TFdiHdUxSY/k+Qm0r3ywLh92tILeP1YRH4xoZIwh3TnwYgLCnSDMjI3Ky4iZt6unox9AhWImiyW
+ properties :
+  width : 663
+  height : 422
+  widthClient : 661
+  heightClient : 390
+ controls :
+  -
+    name : BTN_Soumettre_une_facture_PDF_facture_fictive_uniquement_pour_test
+    identifier : 0x2c122b5a03d79263
+    internal_properties : CAAAAAgAAAB8UHFgk/yNSQ4LLswVD06J+rww/jW/qf7IF9Xe5n1Ec2YB5e1OR1IuygejoswCObLX7ZISVGoa0f2HBsd6qjOZ+BQhp7cpWfhx9A6URUe2WgIX110SRLZhKuS6WNrjvmCqEoT1tEUKu3rKagKOoDb8NTXRkRaW11Kt79NFOtdKpidjUD4nFOxGbX+vPQhGd9L5wmo2fx0xy1PycJjqV99p/DSMZIAsYSQM1TC3ZIYz66ndiNBEHxQ4w3o8BiFQM9twWqcIoNqoP2P0ga7Bjjt6zyoe0QRnIAIQW5KyqhJ1twXP2LnJBxqZA4FWdCSHaKtrc4JMvKW8JrsybT0/GEJrtvzduOfq4bywOguzJ8Zvx6Vwq05bZ9qhjO3Rg5YgEB8a6Rs7Pd8nL3A/TJLwNQEHk6y49AUKiy/GPdReBueBwSJ5KWHthQhrGoBe4FHWTWBrMgpChPLcTzM/D7sJ3B3/hOe5g2OMGLmlUv08oDa0ahxOLZ01ttuoB3bl9hG+GaoX2gDQP9I1vMgyagVYHdaBnoPU+t3fopxO9cFXJys4A7HUjx+mqyl/waxnloPryPKsRFEONzZ9v2U6vSUCZrxF2qjHKVIM5LQz2qbH1qGHJLuw7VRbLsGj4fNgO9jD9XrnV7k5ePjkz2O5A7p2jZZhjm7c6iO3RbQMZ2Z7qP+fwSA77SCMpSBU6aJQHGgT8b1rhAjpT5itfzEVhEe6lE/iF7MLCNhC0jkce3koJnsXof5NnNouTDeIu1GfCPTeqasGHcIgUAcZoipgWmtiDhPoSpwNFFA3Hyd4RgmHobC9ioW1bGgWxCqSIw9bRp3WsJkRCe0un6woGFDQRVx567a9Ui48We+wrPWegBm7mi2gnz09oWqATD7+Hvb+PSy6vZ9m16vjo8Bbu83QtcMYyPH+GGDvNtAxKe/fajcsk/DqxgReirfkRzN4VPi3zGll3dD/VOcdRtEmL/4rlf3Nxua7BhaL+0q6mj7U
+    properties :
+     x : 6
+     y : 73
+     width : 649
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // On vérifie qu'un fichier PDF est fourni
+         SI gsFichierFacture=""_OU_ fFichierExiste(gsFichierFacture)= Faux ALORS
+         	Erreur("Un fichier PDF de facture doit être fourni","Vous pouvez utiliser une PDF de test en cliquant sur le bouton 'Génère PDF Test'")
+         	RepriseSaisie(gsFichierFacture)
+         FIN
+         
+         // Étape 1 : on envoie le PDF à Chorus 
+         sNuméroFactureChorus est une chaîne 
+         sNuméroFactureChorus = DeposerFacture()
+         SI sNuméroFactureChorus = "" ALORS
+         	Erreur("Échec du dépôt du PDF")
+         	RETOUR
+         FIN
+         
+         // Étape 2 : on soumets la facture
+         jParametre est un JSON <description="SoumettreFacture_M8_V0_input">
+         jParametre.modeDepot = SAISIE_API..Nom
+         jParametre.numeroFactureSaisi = sNuméroFactureChorus
+         
+         jParametre.destinataire.codeDestinataire = gjEngagement.emetteur.identifiantStructureEmettrice 
+         jParametre.destinataire.codeServiceExecutant =  SAI_Code_service_exécutant
+         
+         jParametre.fournisseur.idFournisseur = gnIDStructureFournisseur
+         jParametre.cadreDeFacturation.codeCadreFacturation = A1_FACTURE_FOURNISSEUR..Nom
+         
+         jParametre.references.deviseFacture = "EUR"
+         jParametre.references.typeFacture = ETypeFacture.FACTURE..Nom
+         jParametre.references.typeTva = TVA_SUR_DEBIT..Nom
+         jParametre.references.modePaiement = VIREMENT..Nom
+         jParametre.references.numeroBonCommande= gjEngagement.numeroEngagementJuridique
+         
+         // Exemple de contenu de facture
+         jParametre.lignePoste[1].lignePosteNumero = 1
+         jParametre.lignePoste[1].lignePosteReference = "PRD_0011"
+         jParametre.lignePoste[1].lignePosteDenomination = "Bols (10 cm) blanc"
+         jParametre.lignePoste[1].lignePosteQuantite = 39
+         jParametre.lignePoste[1].lignePosteUnite = "unité"
+         jParametre.lignePoste[1].lignePosteMontantUnitaireHT = 12.00
+         jParametre.lignePoste[1].lignePosteTauxTva = "TV12"
+         jParametre.lignePoste[1].lignePosteMontantRemiseHT = 0
+         
+         jParametre.montantTotal.montantAPayer = 561.60
+         jParametre.montantTotal.montantHtTotal = 468.00
+         jParametre.montantTotal.montantRemiseGlobaleTTC = 0
+         jParametre.montantTotal.montantTtcTotal = 561.60
+         jParametre.montantTotal.montantTVA = 93.60
+         jParametre.montantTotal.motifRemiseGlobaleTTC = ""
+         
+         jParametre.commentaire = "TEST_[%DateSys()%]_[%HeureSys()%]"
+         
+         
+         jResultat est un JSON <description="SoumettreFacture_M8_V0_output">
+         
+         jResultat = ChorusProAppelGenerique(jParametre,"/cpro/factures/v1/soumettre")
+         SI ErreurDétectée ALORS
+         	Erreur()
+         	SAI_Résultat = ""
+         	RETOUR	
+         FIN
+         
+         AfficherJSON(jResultat)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Résultat
+    identifier : 0x2c122fe606965311
+    internal_properties : CAAAAAgAAAARdtxRLB1n9ThfD9aFAXaJlUj5riTtNHSEYN1S2eBTKQFOFkKTmWNJRi8A541/9uM5f9/OwqrtcVhriTXPBG2eIBo+STmVf2CxNdr8czzHxvW65bUC7k9d0OhMy6JeQ7YyUNYguJhVI0WZl9d5Qr70z+fvQgg7WWEbjXcBsVgR4nAzu5xPvyBwS/kclrNJ51Vc9Uk186+wEhombu35NlCIoxe0DNfG0qvH1rYYuPRXHfZ7uFoeLTiUe9YzbbXhlx21W3zZpDWk87bIpPOPAaufemAmKlPBMOlWGTFontVAfkE4EllZ3hVDh+O0Mu+bnutFTbbNa8W5J9URU4xn7AmdxkTMI30qEUZil2LVzMGXcEuKavZqEynhmjwZ7QLV+KReA0WlV7NMM4Ftt3dRrgisg9b+DyMjto/1eVj4MgwCKCCWRsCHM0+ZyFaGrfTGzB348JNjNfl8sOmBbdq0tdjl5oeBbSDhsWLFjOIK1NJqfwnrad0tmpVV/cS/vS0vits8XlqBOVcCVlp6iFcm6q+HcBGwEgOI1IBEZcA8GL9MmOPr1bi8Xlan+OYK3BSmnbbzcPFz9nEYu6wtO3TNeQvc9SCgcXDmesU4f1AtGgB+EU4bCYtJWbpY+2k/c75+8tzFFqVOnB4SCx8GbsNJef0pTRuvOa5XPmXTR2htPHIwIqwbT1oBR5zjiJoI30JXRTUav1UHwrt8UIQ/OjJNBU4CvNDj5t3jT31vqbiEclcnCPorKvni6lc50bekpw7JuVUBmI1vafwuwArGhaYBnzIwXAkc41xiLMAsdL4C2A7JgdgDmIGy7KR1Z77Y0bgcS6qF2VSg0qa2zsCb0sd4Qakbwcx4ec49b+Dm14eL4tlDpHC7gWMaZz8j94y726F7uCd2TgHOK0+5mfvMWMZP5nMUVgewhVxapvJqRvWlxB0RWw2e953654rlq2ZjcHnceO7MZGAdZwLYCn5pSXMOF1k84AZ1oTvkfLub89ujdiKy96c9099eGFCZlZZPkrq+i8dFfk+O4MMVhWLOTpf65IJaMiLWAVQEWvIkjbNRvAErp6O3wnJ8N/w+JLZcp/qfAxTek/vXYmlXInQ7QIk8CqnWdcBJX1TX/o7HD6GJhmQOsH3Cf2vqCOmWn8gthRl2ny+XIGBi3/+7ucIzclNZwDcQUJv9dMxXtdbfX2WOLwiShFG+EjyPWh5KfnfmPldlm00Utvxi6eEwi/XGy0LFRegwBTwsbRmWkk6ZE+WVErAnAMA8UtLXnmY72qE3XbhbXALuJ/nMHYNoejEg2nW8pLlMjFLPsLeVeH9qMTeqtJmEt3zNdcsLrfOpNTQ68erg4aaVWCHDckt4eDS/+xfQiAW5RtSp3GLVzLtXGBA=
+    properties :
+     x : 6
+     y : 103
+     width : 650
+     height : 255
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Fermer
+    identifier : 0x2c12306d0725623a
+    internal_properties : CAAAAAgAAADy7+TCt4bWzePRtr4OkcuEsylKeOuL3kHie/0UkDu60pxOlubFYTn2+gl9gzLddFi2eZP1nt10onaziDYZXUAe+jGLP9LYtLkgVzLhUBqg8RCpvZwT7+UtCcvoj8dQNzkKxxn7UipNM4H8hovpY9L45gX34rhKASvbRWn0vZ3iAvQK7nW3bHKLe8twH+g4towUCbf38lzGGSbaq34G6JhfPMbGK/C3Gf9HU1ABBppv2nR4UZJDqODK3UGY68LNNAtftcCXGjlPmp88+hu9X6MZ4Hi6mq7NHRqAmniqECws05DFWdV5swnKoVNb2Wc5qV0D2OqvW3e2k4WjbcTZ4BP7+LHUEmwl2YNop5w+zjFB97IZjRhTQ6wFhVw0yJU94YFmagpjh0NbjBDdPAU3BBTYzSlsnsDOs6AFLK/1j8ic2KqN5xITiixrchm5GCUmSvJCcZWZea3AzFvQ5sjPGjM0CQ0P6CL67uAsnVXPklXSdALI+qs9PwOAjogyJ89hhHKSB6RDVHVvwQ3GspmRp/mNrv+p1L2+9EIf+IzW9qYu6n7chOcNJoh7qqlauPPCZ/9ZqnSJlTjrjDVVPURJWGrqPvI240rY5BYv2HX7wvQf+f+nqw59LkaGlpsNIOq3ax+/JKlBJzi8l59OcJGMLGj3Ldip1oJAYe2AyQz3hUVXX4R8XHgXLPUFx1fEn+LRIXa4od02hc4dJ5wh8Wi3fA1HAY2kpQgh0Ur0yCxxfTMTN1Ny6gdOYimRa6d1VGSVA+5tzIvRVBVetapL7HSMVL4mFKd5DWc0DEDtb81DvnEzuGl5owkk8Ta/0/h4hShtvAyshOJ9GwR0jQvukA2WdhwTHfL945da+JNdiYkpcDJZe0jCSrvadg/aDR7JQ2/lJOevfF4lxFfs1JP4Gf8BpgxltWpqC3fMi35F4RsYa4nmhGxSUWRjHlpcQaNJXlicdAa0rNoRUt844Ur1cQ==
+    properties :
+     x : 573
+     y : 360
+     width : 82
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Attention_dans_le
+    identifier : 0x2c123f5019608bc0
+    internal_properties : CAAAAAgAAAB4rwSgOS8TOMDw5c1A4xZxZHQtYq9YQ4korFZL9O8UfpwKkO+krVCYLVsKVtPkvil7KGcpxuo9YsqoQf+AxwAjNjymGzxiOroMqy4C1/I0KBJBnlQWP8wbmS6ejz1Jcu52Krym8Ezv8wKdPXOqS16SXzszMzoluCo0vHBG/GhLsknk5S6dZKupNWorvRsMvN7UTRq+CQ8BneX4ArtjtlsqRUJQ1TUIs1aoE/PQB82DS9JUt//bngqatDVE9jFFotH+heMSpDxXNy1bWGswii05zJ5YG9M+wLv/ui+K1BlOdqyo02ibNfy9ZArEAYn+wIiYZPe5+4Ar17S2t55AVY41yKZqegO6YlFipsqFus3KGul/IZSNueR7lD3cqGHboFvd1n/Lz4Ztqt6vccNnLfz3+lrKzwq8mz3jE38VKip2AUzEjMdYzlAXK5b3RnT4/3CuAQmXij83O/VEwnd9Axl9GvnH3eVHsB2ffw4ojadDPixNy7RbbH+yfLUaZpxJ3Q9PKu5zjbG0GpfZ6zHg8h41nIR9P/o9644Vhp6vAEUv+ZVM+URXyAs+z169u/GyxWqGqgauoPQSvgyfyHySow2ptud57p3fOLd2rpmFS5MIEsLNXA9rCufXOIG/1QI5REHMhMnfCWE3/L88BqE/vlLPv754IcSXOstFxIUB3iKoDxIbM62tiqH2jwpEkM4bdXEjnhV0bIq14EsTA9OJs1qHvC2qLvLQ6pSdzFyyXTx39A==
+    properties :
+     x : 6
+     y : 6
+     width : 649
+     height : 29
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_Code_service_exécutant
+    identifier : 0x2c123fb61a49184c
+    internal_properties : CAAAAAgAAABI7C8ULP9JdS60Idq+lh69saErBPadMfrwrbMBkWJKpa8NatuvegQSREG5uLXWZsxgFYpRxRBPbeTVrWRtnnH9ap/fBC9NAnbRVeIV3zUDweSeJlX6L5TnQ/yO9I2LDZDObRKymAVxKPXdbX6ZUPf1j4GcgVftWBiJgw0OnWcsteWNQduZctmolliJYipx8ZiP9OP9pc0Oxdbr/YSNBci907MojIUG9k0GYGWz7xEqnHJX4UUSfyZcmvxb6/IGzahC1PPNtN+1oYqzLGZLMxQ2YguV8/ptl46W7sdDsuic7Q4dyC40SmJlc4RcWpup+6UIqZdEMrVFpZo9+/CbFsdXdFGFdRxtSJAHAC3eQI1P/XMttwR9C9ade87pZd4OUzOW3o2BwYVkQdFLrqlcugihzSByz/soRIZXRpl78BmgnNGOOGINiCpwwEnZE2KnFw/hPY+KN3EvfHqd9zzxuVlx3K65fJAzbuecLBoP5/Uc8zDgzXL6yyLML1NFanZh+Zo7edpKKaKnoh7CnI58kh2MWbuEcQJRVQQceYXydl0QUzPHv+r5cBalKDtl4vvXbcURs+lVXWUxxE+Ch63SOLS0WmALvU9mvm0ggVteMjXt+90c7wduI3/dMGslUxnDCNyR4GqB9KeKsA2NqCcQRxBJluPLzhFq9nsGg4utCUFlhBZBYtB4YIOljCsmwUV5+p/J7dzsqJut+d0nO0i2iuVGAL1tuW9wiGDzp6xYniqk0CIU3HJQ5TKTHlQflqMvdgiylsyFKBpc8/JMGDjnNKGuxniVtuUsdoje7x0+YH6Nl6Nh6di6MZRgrMRXbDtY2H8aGXBOLtKoOyLd2V8H6EqT2AC6CQzIhz0y/qIXDAVvT0Ob+6Q3yeqgV/AKx5w/2U6TxEFPbso8aP15e7goes/Kpm9P7oF3ffBvfsmx7hankMT1a5LJqtQUjl1IkW0/7c0EiF+/iuL0kVaQnb8xgQqVQqPfRDHN08+X0RJJBNIHEb1GZWBFolAF801P3217kRmQ3bV7dh8n5Rs4Z72/JrXATn+vxHyz80rjpesAviCSRIHqPMy6VAlX/mvNgW7fp35dFpib+NsSuK00eLC9qX3KcbMcbuDwjWeDxkjixRRHKvblPG1CPmgCQ+/yW0PouRM/fAsBHB1n9OI/juTTbtgQt5GqCdDPGzLelM0Dx9uLE072obuUtTdDxe3AtHLv+uQpzd4kkgpcHVj33jmPdy7dejmXfFh4No2ExU5CbKm3wjakaImz2K52B7FXYk91w9w6RFNGTTRIJ6vJCXkQmnuotVQ44QO3TwvjxFN5uj3PPbpBBewBm9M8H+pBVRSGM1yYVoI5xCu6GMoKFr3AXpBHllCeAmMTvL8=
+    properties :
+     x : 6
+     y : 41
+     width : 298
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAAAqms+oohbDEI4DO/N3qk3LYz14Uef/aIr0/h1veB/rq5mAQtLwalLZFhF+LRsIKVCXGIyv85EnBfLyKRhELbaBATiA9iRQjQkRAK2rMzEvcfA26kYw/roNnXCrpbCAVemavv4xnGZ0G3Qb0i6TPHD+GV6KnFm//0Yr1GFAGtmuC48JAxCkrb0wb2fHPLQEFo/6gFDkdg/m5gKmE8Jrc+vomIkmopM4ufq5khlRzXJ7+wSzYr6TYyS3QO0Wz88oN9AtlFVXJVTO2Glx6hBGqq6ypOUfhB0bitOHD0hsEUyDz0shhm0o8r+faSV2bQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABCv63Mj6UbS/SBiT8qUeGdMmFSSQwRyMW5KkFd3EWpoRmFVVyRoO9ByXRYeZmkS4qFluK3n1KzkRTQ8tJ9A7bzOLS4il4ra6o=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCÉDURE MaFenêtre(gnIDStructureFournisseur est un entier sur 8 octets, gjEngagement est un JSON <description="ConsulterDetailEngagementJuridique_output">)
+   -
+     code : |1+
+      SAI_Code_service_exécutant = gjEngagement.emetteur.codeServiceExecutant
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : DeposerFacture
+     procedure_id : 2022726964158724505
+     type_code : 14
+     code : |1-
+      PROCÉDURE DeposerFacture():chaîne
+      
+      jResultat est un JSON <description="DeposerPDFFacture_M8_V0_output">
+      jResultat = FacturesDeposerPDF(gsFichierFacture)
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RENVOYER ""	
+      FIN
+      
+      RENVOYER jResultat.numeroFacture..Valeur
+     type : 458752
+   -
+     name : AfficherJSON
+     procedure_id : 2022731916259005473
+     type_code : 14
+     code : |1-
+      PROCÉDURE AfficherJSON(jTexteJSON est un JSON)
+      
+      // Variables locales
+      BufferMiseEnForme est un Buffer 
+      
+      // Sérialisation du JSON avec formatage
+      Sérialise(jTexteJSON,BufferMiseEnForme,psdJSON +psdMiseEnForme)
+      
+      // Affichage
+      SAI_Résultat = BufferMiseEnForme
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x10fade8103f7647b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
